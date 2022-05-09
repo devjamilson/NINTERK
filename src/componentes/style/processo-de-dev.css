@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bloco2{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.bloco2 h1{
+    font-size: 44px;
+    text-align: center;
+    margin-top: 6vh;
+    background-image: linear-gradient(45deg, #1460FD, #d41ee5);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.bloco2 p{
+    font-size:14px;
+    color: #9f9f9f;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2.5vh;
+}
+
+.cont-card-info { 
+    position: absolute;
+    display: flex;
+    background-color: rgb(254, 254, 254);
+    margin-top: 10vh;
+    padding-left: 14%;
+    width: 100%;
+    height: 60vh;
+}
+
+
+
+.cont-card-info .cards{
+    height: 41vh;
+    width: 24.5%;
+    background-color: #F3F3FF;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #1460FD, #9f1ee5) 1;
+    margin-left: 3%;
+}
+
+.cards img{
+    margin-left: 38%;
+    margin-top: 3vh;
+}
+
+.cont-card-info  .cards h2{
+    color: #7A7A7A;
+    text-align: center;
+}
+
+.cards p{
+    color: #B2B2B2;
+    font-size: 12px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+/*-------Animaçaõ---------*/
+
+[data-anime]{
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime='left']{
+   transform: translate3d(-50px, 0, 0);
+}
+
+.animate{
+    opacity: 1;
+    transform: translate3d(0px, 0, 0);
+}

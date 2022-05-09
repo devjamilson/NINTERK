@@ -1,0 +1,72 @@
+.bloco7{
+    height: 60vh;
+    background-color: #16161C;
+}
+.bloco7 h1{
+    font-size: 34px;
+    margin-left: 13.5%;
+    background-image: linear-gradient(20deg, #1460FD,#bc00c2,#bc00c2, #c200bb);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 4vh;
+}
+
+.bloco7 h2{
+    font-size:14px;
+    color: #9f9f9f;
+    font-weight: bold;
+    margin-left: 13.5%;
+    margin-top: 1.5vh;
+}
+
+.bloco7 form span input{
+    background-color: #27272A;
+    color: #868686;
+    border: 3px solid;display: block;
+    border-image: linear-gradient(45deg, #1460FD,#7a087e) 1;
+    width: 200%;
+    height: 8vh;
+    margin-bottom: 3vh;
+    outline: none;
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.bloco7 form{
+    display: flex;
+    padding-left: 13.5%;
+    margin-top: 4vh;
+}
+
+
+.bloco7 form textarea{
+    background-color: #27272A;
+    color: #747474;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #1460FD,#7a087e) 1;
+    height: 19vh;
+    width: 40%;
+    margin-left: 23%;
+    resize: none;
+    outline: none;
+    padding-left: 1.5%;
+    padding-top: 2vh;
+    font-size: 20px;
+}
+
+
+.bloco7 input[type='submit']{
+    position: absolute;
+    border: none;
+    height: 6vh;
+    margin-left: 74.4%;
+    width: 12%;
+    cursor: pointer; 
+    background-image: linear-gradient(45deg, rgb(11, 69, 244), rgb(221, 10, 240)) ;
+    -webkit-background-clip:border-box;
+    -webkit-text-fill-color:#ffffff;
+    border:none;
+    cursor: pointer;
+}

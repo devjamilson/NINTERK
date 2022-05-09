@@ -1,0 +1,92 @@
+.bloco3{
+    z-index: 1;
+    background-color: #16161C;
+    margin-top: 70vh;
+}
+
+
+.bloco3 h1{
+    animation: positionText-b3 1s;
+    font-size: 34px;
+    margin-top: 6vh;
+    background-image: linear-gradient(20deg, #1460FD,#bc00c2,#bc00c2, #c200bb);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 13.5%;
+    padding-top: 4vh;
+}
+
+.bloco3 p{
+    font-size:14px;
+    color: #9f9f9f;
+    font-weight: bold;
+    margin-top: 2.5vh;
+    margin-left: 13.5%;
+}
+
+.cont-serv-info{ 
+    display: grid;
+    grid-template-columns: 27% 27% 27% ;
+    grid-template-rows: 45% 45%;
+    column-gap: 1.2%;
+    width: 100%;
+    height: 100vh;
+    padding-left: 17%;
+    margin-top: 10vh;
+}
+
+
+.cont-serv-info .cards{
+    height: 41vh;
+    width: 92%;
+    background-color: #16161C;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #1460FD, #9f1ee5) 1;
+    cursor: pointer;
+}
+
+
+.cont-serv-info .cards:hover{
+    background-image: linear-gradient(46deg, #1460FD,#7f35d9, #961EE5 );
+    border: none;
+    margin-top: -1vh;
+}
+
+.cards img{
+    margin-left: 41%;
+    margin-top: 3vh;
+    height: 8vh;
+}
+
+
+
+.cards h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 2vh;
+}
+
+.cards p{
+    font-size: 11px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1vh;
+    text-align: center;
+    color: #c7c7c7;
+}
+
+/*------------IMG-SRC------------*/
+.ecommerce-g{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
+
+.show2{
+    display: none;
+}

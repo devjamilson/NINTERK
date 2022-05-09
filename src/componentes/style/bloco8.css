@@ -1,0 +1,69 @@
+.bloco8{
+    height: 65vh;
+    background-color: #27272A;
+    display: flex;
+    padding-top: 10vh;
+}
+.bloco8 span{
+    margin-left: 5%;
+}
+.bloco8 span h1{
+    color: #fff;
+}
+
+.bloco8 span p{
+    width: 80%;
+    font-size: 13px;
+    font-weight: bold;
+    color: #747474;
+    margin-top: 2vh;
+}
+
+.bloco8 span button{
+    background-color: #643DF2;
+    margin-top: 4vh;
+    width: 60%;
+    height: 6vh;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 12.5px;
+    font-weight:600;
+    cursor: pointer;
+}
+
+
+.bloco8 span div{
+  height: 8vh;
+  display: flex;
+  margin-top: 4vh;
+  background-color: #27272A;
+  margin-left: -5%;
+}
+
+
+.bloco8 span div img{
+    height: 4vh;
+    margin-left: 5%;
+
+}
+
+.rodape{
+    height: 12vh;
+    padding-top: 4vh;
+    display: flex;
+}
+
+.rodape h1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #9E9E9E;
+    margin-left: 12%;
+}
+
+.rodape span{
+    width:65%;
+    margin-left: 23%;
+}
+  
+
+

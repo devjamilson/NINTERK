@@ -1,0 +1,42 @@
+.bloco5{
+    height: 78vh;
+    background-color: #16161C;
+    margin-top: 20vh;
+}
+
+.bloco5 h1{
+    font-size: 34px;
+    margin-left: 13.5%;
+    background-image: linear-gradient(20deg, #1460FD,#bc00c2,#bc00c2, #c200bb);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 4vh;
+}
+.ultimos-projetos-dev{
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18%;
+    column-gap: 2.5%;
+    padding-left: 13.5%;
+    margin-top: 4vh;
+}
+.ultimos-projetos-dev div{
+    background-color: #383838;
+    height: 40vh;
+}
+
+.bloco5 button{
+    position: absolute;
+    border: none;
+    height: 6vh;
+    margin-top: -55vh;
+    margin-left: 44.5%;
+    width: 12%;
+    cursor: pointer; 
+    background-image: linear-gradient(45deg, rgb(11, 69, 244), rgb(221, 10, 240)) ;
+    -webkit-background-clip:border-box;
+    -webkit-text-fill-color:#ffffff;
+    border:none;
+    cursor: pointer;
+}

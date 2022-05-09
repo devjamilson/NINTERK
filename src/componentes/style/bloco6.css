@@ -1,0 +1,119 @@
+.bloco6{
+    height: 150vh;
+    background-color: #ffffff;
+}
+
+.bloco6 h1{
+    font-size: 44px;
+    text-align: center;
+    padding-top: 6vh;
+    background-image: linear-gradient(45deg, #1460FD, #d41ee5);
+    color: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bloco6 h2{
+    font-size:14px;
+    color: #9f9f9f;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1.5vh;
+}
+
+.cont-orcamento{
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 32% 32%;
+    column-gap: 2%;
+    padding-left: 25%;
+    padding-top: 5vh;
+}
+
+.cont-orcamento div{
+    height: 110vh;
+    width: 100%;
+    background-color: #F3F3FF;
+    border: 3px solid;
+    border-image: linear-gradient(45deg, #1460FD, #9f1ee5) 1;
+    margin-left: 2.5%;
+}
+
+.btn1{
+    height: 7vh;
+    width: 80%;
+    background-color: #643DF2;
+    border:none;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 10.5vh;
+    color: #fff;
+}
+
+.btn1:hover{
+    background-image: linear-gradient(45deg, #1460FD, #d41ee5);
+}
+
+.btn2{
+    height: 7vh;
+    width: 80%;
+    background-color: #643DF2;
+    border:none;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 5vh;
+    color: #fff;
+}
+
+.btn2:hover{
+    background-image: linear-gradient(45deg, #1460FD, #d41ee5);
+}
+
+.head-orc{
+    background-color: #643DF2;
+    height: 9vh;
+}
+
+.head-orc h4{
+    color: #ffffff;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 1vh;
+}
+.head-orc h3{
+    color: #ffffff;
+    text-align: center;
+    font-size: 19px;
+}
+
+.list-cont-orc li{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #A0A0A0;
+    margin-top: 2vh;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.list-cont-orc li span{
+    color: #643DF2;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.chack{
+    color: #643DF2;
+    font-size: 17px;
+    margin-right: 3%;
+}
+
+.titulo-text{
+    padding-top: 2vh;
+    text-align: center;
+}
+
+.btn{
+    margin-top: 7vh;
+}
